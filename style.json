@@ -9,7 +9,7 @@
 	"sources": {
 		"demotiles": {
 			"type": "vector",
-			"url": "https://demotiles.maplibre.org/tiles/tiles.json"
+			"url": "https://andrewpmoore.github.io/protomap/tiles.json"
 		}
 	},
 	"sprite": "",
