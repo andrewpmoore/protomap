@@ -1,0 +1,40 @@
+{
+  "name": "zeal-cms",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^29.0.0",
+    "@ckeditor/ckeditor5-react": "^3.0.2",
+    "knex": "0.21.18",
+    "sqlite3": "5.0.0",
+    "strapi": "3.6.5",
+    "strapi-admin": "3.6.5",
+    "strapi-connector-bookshelf": "3.6.5",
+    "strapi-plugin-content-manager": "3.6.5",
+    "strapi-plugin-content-type-builder": "3.6.5",
+    "strapi-plugin-email": "3.6.5",
+    "strapi-plugin-i18n": "3.6.5",
+    "strapi-plugin-upload": "3.6.5",
+    "strapi-plugin-users-permissions": "3.6.5",
+    "strapi-utils": "3.6.5"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "3b3a4ab7-1255-4174-a786-28843101207f"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": "^6.0.0"
+  },
+  "license": "MIT"
+}

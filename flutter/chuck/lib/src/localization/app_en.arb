@@ -1,0 +1,26 @@
+{
+  "appTitle": "Chuck Norris",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "homeTitle": "Chuck Norris jokes",
+    "@homeTitle": {
+      "description": "The main app bar title"
+  },
+  "home": "Home",
+    "@random": {
+      "description": "Screen navigation for showing random joke"
+  },
+  "random": "Random joke",
+    "@random": {
+      "description": "Screen navigation for showing random joke"
+  },
+  "search": "Search",
+    "@search": {
+      "description": "Screen navigation for showing the joke search screen"
+  },
+  "categories": "Categories",
+    "@categories": {
+     "description": "Screen navigation for showing the joke categories screen"
+  }
+}

@@ -1,0 +1,204 @@
+[
+  {
+    "name": "beach",
+    "description": "Hawaiian Beach",
+    "animation_name": "test.riv",
+    "features": [
+      {
+        "name": "night_toggle",
+        "default_state": "off",
+        "trigger_name": "night_toggle",
+        "audio": false,
+        "audio_loop" : true,
+        "off_feature_state": {
+          "animation_state_name": "night",
+          "animation_state_value": 0,
+          "audio_to_play": []
+        },
+        "on_feature_state": {
+          "animation_state_name": "night",
+          "animation_state_value": 1,
+          "audio_to_play": []
+        }
+      },
+      {
+        "name": "keyboard_toggle",
+        "default_state": "off",
+        "trigger_name": "keyboard_toggle",
+        "audio": true,
+        "audio_loop" : true,
+        "off_feature_state": {
+          "animation_state_name": "keyboard",
+          "animation_state_value": 0,
+          "audio_to_play": []
+        },
+        "on_feature_state": {
+          "animation_state_name": "night",
+          "animation_state_value": 1,
+          "audio_to_play": ["https://github.com/andrewpmoore/lofi/blob/main/1.mp3?raw=true","https://github.com/andrewpmoore/lofi/blob/main/10.mp3?raw=true","https://github.com/andrewpmoore/lofi/blob/main/11.mp3?raw=true","https://github.com/andrewpmoore/lofi/blob/main/12.mp3?raw=true","https://github.com/andrewpmoore/lofi/blob/main/13.mp3?raw=true"]
+        }
+      },
+      {
+        "name": "rain_toggle",
+        "default_state": "off",
+        "trigger_name": "rain_toggle",
+        "audio": true,
+        "audio_loop" : true,
+        "off_feature_state": {
+          "animation_state_name": "rain",
+          "animation_state_value": 0,
+          "audio_to_play": []
+        },
+        "on_feature_state": {
+          "animation_state_name": "rain",
+          "animation_state_value": 1,
+          "audio_to_play": ["https://github.com/andrewpmoore/lofi/blob/main/light-rain-109591.mp3?raw=true"]
+        }
+      }
+
+    ]
+  },
+  {
+    "name": "city",
+    "description": "Cityscape",
+    "animation_name": "test.riv",
+    "features": [
+      {
+        "name": "night_toggle",
+        "default_state": "off",
+        "trigger_name": "night_toggle",
+        "audio": false,
+        "audio_loop": true,
+        "off_feature_state": {
+          "animation_state_name": "night",
+          "animation_state_value": 0,
+          "audio_to_play": []
+        },
+        "on_feature_state": {
+          "animation_state_name": "night",
+          "animation_state_value": 1,
+          "audio_to_play": []
+        }
+      },
+      {
+        "name": "keyboard_toggle",
+        "default_state": "off",
+        "trigger_name": "keyboard_toggle",
+        "audio": true,
+        "audio_loop": true,
+        "off_feature_state": {
+          "animation_state_name": "keyboard",
+          "animation_state_value": 0,
+          "audio_to_play": []
+        },
+        "on_feature_state": {
+          "animation_state_name": "night",
+          "animation_state_value": 1,
+          "audio_to_play": ["https://github.com/andrewpmoore/lofi/blob/main/1.mp3?raw=true"]
+        }
+      },
+      {
+        "name": "vehicles_toggle",
+        "default_state": "off",
+        "trigger_name": "vehicle_toggle",
+        "audio": true,
+        "audio_loop": true,
+        "off_feature_state": {
+          "animation_state_name": "keyboard",
+          "animation_state_value": 0,
+          "audio_to_play": []
+        },
+        "on_feature_state": {
+          "animation_state_name": "night",
+          "animation_state_value": 1,
+          "audio_to_play": ["https://github.com/andrewpmoore/lofi/blob/main/1.mp3?raw=true"]
+        }
+      }
+
+    ]
+  },
+  {
+    "name": "train",
+    "description": "Train",
+    "animation_name": "test.riv",
+    "features": [
+      {
+        "name": "night_toggle",
+        "default_state": "off",
+        "trigger_name": "night_toggle",
+        "audio": false,
+        "audio_loop": true,
+        "off_feature_state": {
+          "animation_state_name": "night",
+          "animation_state_value": 0,
+          "audio_to_play": []
+        },
+        "on_feature_state": {
+          "animation_state_name": "night",
+          "animation_state_value": 1,
+          "audio_to_play": []
+        }
+      },
+      {
+        "name": "keyboard_toggle",
+        "default_state": "off",
+        "trigger_name": "keyboard_toggle",
+        "audio": true,
+        "audio_loop": true,
+        "off_feature_state": {
+          "animation_state_name": "keyboard",
+          "animation_state_value": 0,
+          "audio_to_play": []
+        },
+        "on_feature_state": {
+          "animation_state_name": "night",
+          "animation_state_value": 1,
+          "audio_to_play": ["https://github.com/andrewpmoore/lofi/blob/main/1.mp3?raw=true"]
+        }
+      }
+    ]
+  },
+  {
+    "name": "japan",
+    "description": "Japanese Garden",
+    "animation_name": "test.riv",
+    "features": [
+      {
+        "name": "night_toggle",
+        "default_state": "off",
+        "trigger_name": "night_toggle",
+        "audio": false,
+        "audio_loop": true,
+        "off_feature_state": {
+          "animation_state_name": "night",
+          "animation_state_value": 0,
+          "audio_to_play": []        },
+        "on_feature_state": {
+          "animation_state_name": "night",
+          "animation_state_value": 1,
+          "audio_to_play": []
+        }
+      },
+      {
+        "name": "keyboard_toggle",
+        "default_state": "off",
+        "trigger_name": "keyboard_toggle",
+        "audio": true,
+        "audio_loop": true,
+        "off_feature_state": {
+          "animation_state_name": "keyboard",
+          "animation_state_value": 0,
+          "audio_to_play": []
+        },
+        "on_feature_state": {
+          "animation_state_name": "night",
+          "animation_state_value": 1,
+          "audio_to_play": ["https://github.com/andrewpmoore/lofi/blob/main/1.mp3?raw=true"]
+        }
+      }
+    ]
+  }
+
+
+
+]

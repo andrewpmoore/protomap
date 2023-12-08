@@ -1,0 +1,42 @@
+name: lofi
+description: A new Flutter project.
+
+# Prevent accidental publishing to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_riverpod: ^1.0.4
+  just_audio: ^0.9.29
+  just_audio_background: ^0.0.1-beta.7
+  rive: ^0.9.1
+  widget_and_text_animator: ^1.0.9
+  google_fonts: ^3.0.1
+  shared_preferences: ^2.0.15
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Enable generation of localized Strings from arb files.
+  generate: true
+
+  assets:
+    # Add assets from the images directory to the application.
+    - assets/images/
+    - assets/json/
+    - assets/rive/
