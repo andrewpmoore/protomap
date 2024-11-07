@@ -1,9 +1,15 @@
+@layer tailwind-base, primevue, tailwind-utilities;
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@layer tailwind-base {
+  @tailwind base;
+}
 
-body{
-    font-family: var(--font-family);
-    color: var(--text-color);
+@layer tailwind-utilities {
+  @tailwind components;
+  @tailwind utilities;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--text-color);
 }

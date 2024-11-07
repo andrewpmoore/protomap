@@ -11,6 +11,8 @@
     "composite": true,
     "noEmit": true,
     "module": "ESNext",
+    "noImplicitAny": true,
+    "allowJs": true,
     "moduleResolution": "Bundler",
     "types": ["node"]
   }

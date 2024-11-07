@@ -1,5 +1,5 @@
 name: chuck
-description: Chuck norris joke generator for Thrive code test.
+description: Chuck norris joke generator same app
 
 # Prevent accidental publishing to pub.dev.
 publish_to: 'none'
@@ -19,8 +19,9 @@ dependencies:
   dio: ^5.3.2  # could have gone with http instead, but dio is handy for interceptors
   widget_and_text_animator: ^1.1.5 # used for animations - I'm the author of the package :P
   lucide_icons: ^0.257.0 # nice icon set
-  intl: ^0.18.1
-  google_fonts: ^5.1.0
+  intl: ^0.18.1  # for internationalisation
+  google_fonts: ^5.1.0 # for dynamically loading different fonts
+  http_mock_adapter: ^0.6.0
 
 
 dev_dependencies:
@@ -38,7 +39,8 @@ flutter:
   assets:
     # Add assets from the images directory to the application.
     - assets/images/
-
+    # Add the unit test mock api responses
+    - assets/mocks/
 
 flutter_intl:
   enabled: true

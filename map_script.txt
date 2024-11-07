@@ -1,0 +1,7 @@
+
+
+
+tilelive-copy --minzoom=0 --maxzoom=8 --bounds="-180.0,-90.0,180.0,90.0" maptiler-osm-2020-02-10-v3.11-planet.mbtiles worldz8.mbtiles
+
+
+

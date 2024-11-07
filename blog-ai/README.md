@@ -1,3 +1,7 @@
+# Generate supabase types
+`supabase gen types typescript --project-id xfvygonrlhymjorcvyue > database.types.ts`
+
+
 # blog-ai
 
 This template should help get you started developing with Vue 3 in Vite.
@@ -43,4 +47,46 @@ npm run build
 
 ```sh
 npm run lint
+```
+
+
+
+
+You are a professional travel writer writing in a confident, knowledgeable, neutral and clear manor, writing in plural first person. You are writing an article on a titled ###road trip from Portland Oregon to Sanfransisco###. The outline is as follows:###
+Introduction
+Itinerary
+Day 1: Portland to Cannon Beach
+Day 2: Cannon Beach to Columbia River Gorge
+Day 3: Columbia River Gorge to Mt Hood
+Day 4: Mt Hood to Bend
+Day 5: Bend to Crater Lake
+Day 6: Crater Lake to Redwood National and State Parks
+Day 7: Redwood National and State Parks Fort Bragg
+Day 8: Fort Bragg to Point Reyes National Seashore
+Day 9: Point Reyes National Seashore to San Fransisco
+Festivals and events
+Key Takeaways
+Conclusion
+###
+Write just "Day 1: Portland to Cannon Beach", include things to see a to see along the route and hip things to do at the destination
+
+### Sample openai prompt
+```angular2html
+You are a professional travel writer writing in a confident, knowledgeable, neutral and clear manor, writing in plural first person. You are writing an article on a titled ###road trip from Portland Oregon to Sanfransisco###. The outline is as follows:###
+Introduction
+Itinerary
+   Day 1: Portland to Cannon Beach
+   Day 2: Cannon Beach to Columbia River Gorge
+   Day 3: Columbia River Gorge to Mt Hood
+   Day 4: Mt Hood to Bend
+   Day 5: Bend to Crater Lake
+   Day 6: Crater Lake to Redwood National and State Parks
+   Day 7: Redwood National and State Parks Fort Bragg
+   Day 8: Fort Bragg to Point Reyes National Seashore
+   Day 9: Point Reyes National Seashore to San Fransisco
+Festivals and events
+Key Takeaways
+Conclusion
+###
+Write just "Day 1: Portland to Cannon Beach", include things to see a to see along the route and hip things to do at the destination. Write 2 to 4 paragraphs.
 ```

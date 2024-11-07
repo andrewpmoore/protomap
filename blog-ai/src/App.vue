@@ -1,45 +1,43 @@
 <script setup lang="ts">
-import {RouterLink, RouterView} from 'vue-router'
-import {ref} from "vue";
-import {useToast} from 'primevue/usetoast';
-import MainMenu from "@/components/menu/MainMenu.vue";
-import FooterBar from "@/components/footer/FooterBar.vue";
+import { ref, onMounted } from 'vue'
+import { supabase } from '@/supabase'
+import NotLoggedInView from '@/views/NotLoggedInView.vue'
+import LoggedInView from '@/views/LoggedInView.vue'
 
+const session = ref()
 
+onMounted(() => {
+  supabase.auth.getSession().then(({ data }) => {
+    session.value = data.session
+  })
 
-
-
-
+  supabase.auth.onAuthStateChange((_, _session) => {
+    session.value = _session
+  })
+})
 </script>
 
 <template>
+  <Toast />
 
-  <Toast/>
+  <!--  <div class="container" style="padding: 50px 0 100px 0">-->
+  <LoggedInView v-if="session" :session="session" />
+  <NotLoggedInView v-else />
+  <!--  </div>-->
 
-  <MainMenu/>
+  <!--  <MainMenu/>-->
 
+  <!--  <nav>-->
+  <!--    <RouterLink to="/">Home</RouterLink>-->
+  <!--    <RouterLink to="/writer">Writer</RouterLink>-->
+  <!--    <RouterLink to="/contact">Contact</RouterLink>-->
+  <!--  </nav>-->
 
-<!--  <nav>-->
-<!--    <RouterLink to="/">Home</RouterLink>-->
-<!--    <RouterLink to="/writer">Writer</RouterLink>-->
-<!--    <RouterLink to="/contact">Contact</RouterLink>-->
-<!--  </nav>-->
+  <!--  <RouterView/>-->
 
-
-
-
-
-  <RouterView/>
-
-  <FooterBar/>
-
+  <!--  <FooterBar/>-->
 </template>
 
 <style scoped>
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 80vh;
-}
+
 </style>
