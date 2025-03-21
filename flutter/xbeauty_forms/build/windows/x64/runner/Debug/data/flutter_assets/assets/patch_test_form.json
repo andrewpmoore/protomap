@@ -1,0 +1,67 @@
+{
+  "type": "patch_test_form",
+  "title": "Patch test form",
+  "backgroundColor": "#eeeeee",
+  "icon": "health_and_beauty",
+  "sections": [
+    {
+      "title": "Patch test questions",
+      "questions": [
+        {
+          "id": "info1",
+          "title": "Information about hair recolouring here",
+          "type": "information"
+        },
+        {
+          "id": "doit",
+          "title": "Do you want your hair recoloured",
+          "answer": "",
+          "type": "choiceChip",
+          "rules": [
+            {"required": true, "message": "You must answer the question"}
+          ],
+          "items": [
+            {
+              "label": "Yes",
+              "value": "yes"
+            },
+            {
+              "label": "No",
+              "value": "no"
+            }
+          ]
+        },
+        {
+          "id": "hair",
+          "title": "Which colors do you have in your hair?",
+          "type": "choiceChip",
+          "answer": [],
+          "rules": [
+            {"required": true, "message": "You must answer the question"}
+          ],
+          "items": [
+            {
+              "label": "Blond",
+              "value": "blond"
+            },
+            {
+              "label": "Brown",
+              "value": "brown"
+            },
+            {
+              "label": "Black",
+              "value": "black"
+            },
+            {
+              "label": "Ginger",
+              "value": "ginger"
+            }
+          ]
+        }
+
+
+      ]
+    }
+
+  ]
+}

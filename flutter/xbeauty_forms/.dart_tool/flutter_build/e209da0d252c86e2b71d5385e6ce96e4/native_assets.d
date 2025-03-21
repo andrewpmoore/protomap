@@ -1,0 +1,1 @@
+ C:\\Users\\Andrew\\projects\\flutter\\beautyforms\\.dart_tool\\flutter_build\\e209da0d252c86e2b71d5385e6ce96e4\\native_assets.yaml: 

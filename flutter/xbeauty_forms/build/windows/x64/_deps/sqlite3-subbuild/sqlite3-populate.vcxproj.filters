@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrew\projects\flutter\beautyforms\build\windows\x64\_deps\sqlite3-subbuild\CMakeFiles\12807d9cf065f7c553b58d8542b605a8\sqlite3-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrew\projects\flutter\beautyforms\build\windows\x64\_deps\sqlite3-subbuild\CMakeFiles\12807d9cf065f7c553b58d8542b605a8\sqlite3-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrew\projects\flutter\beautyforms\build\windows\x64\_deps\sqlite3-subbuild\CMakeFiles\12807d9cf065f7c553b58d8542b605a8\sqlite3-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrew\projects\flutter\beautyforms\build\windows\x64\_deps\sqlite3-subbuild\CMakeFiles\12807d9cf065f7c553b58d8542b605a8\sqlite3-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrew\projects\flutter\beautyforms\build\windows\x64\_deps\sqlite3-subbuild\CMakeFiles\12807d9cf065f7c553b58d8542b605a8\sqlite3-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrew\projects\flutter\beautyforms\build\windows\x64\_deps\sqlite3-subbuild\CMakeFiles\12807d9cf065f7c553b58d8542b605a8\sqlite3-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrew\projects\flutter\beautyforms\build\windows\x64\_deps\sqlite3-subbuild\CMakeFiles\12807d9cf065f7c553b58d8542b605a8\sqlite3-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrew\projects\flutter\beautyforms\build\windows\x64\_deps\sqlite3-subbuild\CMakeFiles\12807d9cf065f7c553b58d8542b605a8\sqlite3-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrew\projects\flutter\beautyforms\build\windows\x64\_deps\sqlite3-subbuild\CMakeFiles\2d05c356e383437d8223794560396352\sqlite3-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrew\projects\flutter\beautyforms\build\windows\x64\_deps\sqlite3-subbuild\CMakeFiles\6154605a4015be79cbef3afac4d38095\sqlite3-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\Andrew\projects\flutter\beautyforms\build\windows\x64\_deps\sqlite3-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Andrew\projects\flutter\beautyforms\build\windows\x64\_deps\sqlite3-subbuild\CMakeFiles\sqlite3-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E48026AB-4DBD-338B-A620-45AF93AB961F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

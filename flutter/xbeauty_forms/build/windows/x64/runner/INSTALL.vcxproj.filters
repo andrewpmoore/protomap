@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Andrew\projects\flutter\beautyforms\build\windows\x64\CMakeFiles\a899a6d63a5aa223af5a7d1ae359d6de\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BE033CCC-FB24-3A66-8265-5A301C0DA92F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

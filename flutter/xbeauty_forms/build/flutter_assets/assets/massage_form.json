@@ -1,0 +1,166 @@
+{
+  "type": "massage_form",
+  "title": "Massage consent form",
+  "backgroundColor": "#eeeeee",
+  "icon": "spa",
+  "sections": [
+    {
+      "title": "General state of health",
+      "questions": [
+        {
+          "id": "info1",
+          "title": "Section of stuff here",
+          "type": "information"
+        },
+        {
+          "id": "lifeStory",
+          "title": "What is your life story",
+          "answer": null,
+          "type": "textArea",
+          "rules": [
+            {"required": true, "message": "You must enter your name"},
+            {"min": 2, "message": "Your name must be at least 2 characters long"},
+            {"max": 2000, "message": "Maximum length 2000"}
+
+          ],
+          "placeholder": "Life story goes here"
+        },
+        {
+          "id": "smoke",
+          "title": "Do you smoke?",
+          "answer": "no",
+          "type": "radio",
+          "rules": [
+            {"required": true, "message": "You must answer the question"}
+          ],
+          "items": [
+            {
+              "label": "Yes",
+              "value": "yes"
+            },
+            {
+              "label": "No",
+              "value": "no"
+            }
+          ]
+        },
+        {
+          "id": "stuff",
+          "title": "Do you do stuff",
+          "answer": "no",
+          "type": "choiceChip",
+          "rules": [
+            {"required": true, "message": "You must answer the question"}
+          ],
+          "items": [
+            {
+              "label": "Yes",
+              "value": "yes"
+            },
+            {
+              "label": "No",
+              "value": "no"
+            }
+          ]
+        },
+        {
+          "id": "filterStuff",
+          "title": "Do you do filter stuff",
+          "answer": "no",
+          "type": "filterChip",
+          "rules": [
+            {"required": true, "message": "You must answer the question"}
+          ],
+          "items": [
+            {
+              "label": "Yes",
+              "value": "yes"
+            },
+            {
+              "label": "No",
+              "value": "no"
+            }
+          ]
+        },
+        {
+          "id": "sleep",
+          "title": "How do you generally sleep?",
+          "answer": "okay",
+          "type": "dropdown",
+          "rules": [
+            {"required": true, "message": "You must answer the question"}
+          ],
+          "items": [
+            {
+              "label": "Good",
+              "value": "good"
+            },
+            {
+              "label": "Okay",
+              "value": "okay"
+            },
+            {
+              "label": "Poor",
+              "value": "poor"
+            }
+          ]
+        },
+        {
+          "id": "exercise",
+          "title": "Do you exercise regularly?",
+          "answer": false,
+          "type": "switch"
+        },
+        {
+          "id": "animals",
+          "title": "Do you have any of the following?",
+          "type": "checkbox",
+          "answer": ["cat", "rabbit"],
+          "rules": [
+            {"required": true, "message": "You must answer the question"}
+          ],
+          "items": [
+            {
+              "label": "Cat",
+              "value": "cat"
+            },
+            {
+              "label": "Dog",
+              "value": "dog"
+            },
+            {
+              "label": "Rabbit",
+              "value": "rabbit"
+            }
+          ]
+        }
+
+
+      ]
+    },
+    {
+      "title": "Consent",
+      "questions": [
+        {
+          "id": "gdpr",
+          "title": "GDPR Stuff",
+          "type": "information"
+        },
+        {
+          "id": "signature",
+          "title": "Do you agree",
+          "answer": null,
+          "type": "signature",
+          "rules": [
+            {"required": true, "message": "You must enter your name"}
+          ]
+
+        }
+
+
+      ]
+    }
+
+
+  ]
+}

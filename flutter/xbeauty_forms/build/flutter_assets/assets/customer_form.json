@@ -1,0 +1,93 @@
+{
+  "type": "customer_form",
+  "title": "Customer details",
+  "backgroundColor": "#eeeeee",
+  "icon": "account_circle",
+  "sections": [
+    {
+      "title": "Client details",
+
+      "questions": [
+        {
+          "id": "firstName",
+          "title": "First name",
+          "answer": "",
+          "type": "text",
+          "rules": [
+            {"required": true, "message": "You must enter your name"},
+            {"min": 2, "message": "Your name must be at least 2 characters long"}
+          ],
+          "placeholder": "First name"
+
+        },
+        {
+          "id": "lastName",
+          "title": "Last name",
+          "answer": "",
+          "type": "text",
+          "rules": [
+            {"required": true, "message": "You must enter your name"},
+            {"min": 2, "message": "Your name must be at least 2 characters long"}
+          ],
+          "placeholder": "Last name"
+
+        },
+        {
+          "id": "email",
+          "title": "Email address",
+          "answer": "",
+          "type": "text",
+          "rules": [
+            {"required": false, "message": "You must enter an email address"},
+            {"pattern": "email", "message": "You must enter valid email address"}
+          ],
+          "placeholder": "email address"
+        },
+        {
+          "id": "mobile",
+          "title": "Mobile number",
+          "answer": "",
+          "type": "text",
+          "rules": [
+            {"required": false, "message": ""}
+          ],
+          "placeholder": "Mobile number"
+        },
+        {
+          "id": "altPhone",
+          "title": "Alternative number",
+          "answer": "",
+          "type": "text",
+          "rules": [
+            {"required": false, "message": ""}
+          ],
+          "placeholder": "Alternate number"
+        },
+        {
+          "id": "notes",
+          "title": "Notes",
+          "answer": "",
+          "type": "textArea",
+          "rules": [
+            {"required": false, "message": ""}
+          ],
+          "placeholder": ""
+        },
+        {
+          "id": "warningNotes",
+          "title": "Warning notes",
+          "answer": "",
+          "type": "textArea",
+          "rules": [
+            {"required": false, "message": ""}
+          ],
+          "placeholder": ""
+        }
+
+      ]
+    }
+
+
+
+  ]
+}
